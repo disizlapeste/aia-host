@@ -1,0 +1,1 @@
+Drupal.locale = { 'pluralFormula': function ($n) { return Number(($n!=1)); }, 'strings': {"":{"Sep":"Set","April":"Aprile","Apr":"Apr","June":"Giugno","Jun":"Giu","January":"Gennaio","Jan":"Gen","May":"Mag"}} };
