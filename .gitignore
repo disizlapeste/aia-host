@@ -7,4 +7,4 @@
 
 # Ignore DB backups
 backups/*
-
+sites/default/settings.php
