@@ -3931,6 +3931,33 @@ body.front .progettirecentiblkcls .singoloprogettocls .datainizioprogettocls {
   position: absolute;
   top: 60px;
 }
+body.front .HomeOurNumbersCls div.stats.firstElemCls div.num {
+  margin-top: 13px;
+  color: #fc6a8d;
+}
+body.front .HomeOurNumbersCls div.stats.firstElemCls div.type {
+  text-transform: uppercase;
+  color: #555;
+}
+body.front .HomeOurNumbersCls div.stats#dexp-stats--2 div.num {
+  color: #5F8CB4;
+}
+body.front .HomeOurNumbersCls div.stats#dexp-stats--3 div.num {
+  color: #2AAFC0;
+}
+body.front .HomeOurNumbersCls div.stats#dexp-stats--4 div.num {
+  color: #93cc48;
+}
+body.front .HomeOurNumbersCls div.stats#dexp-stats--5 div.num {
+  color: #ffbc00;
+}
+body.front .HomeOurNumbersCls div.stats div.type {
+  text-transform: uppercase;
+  color: #555;
+}
+body.front .region-map {
+  background: #eee;
+}
 .slider-media .date .year {
   color: #FFFFFF;
   font-size: 14px;
