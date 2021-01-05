@@ -8,4 +8,4 @@ sites/*/settings*.php
 # Ignore DB backups
 backups/*
 sites/default/settings.php
-sites/*/files/feeds/
+sites/default/files/feeds/
