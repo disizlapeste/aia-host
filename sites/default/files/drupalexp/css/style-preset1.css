@@ -3955,6 +3955,10 @@ body.front .HomeOurNumbersCls div.stats div.type {
   text-transform: uppercase;
   color: #555;
 }
+body.front .region-user3 .eapps-instagram-feed-container {
+  max-height: 400px !important;
+  overflow-y: scroll !important;
+}
 body.front .region-map {
   background: #eee;
 }
