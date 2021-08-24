@@ -418,7 +418,7 @@ class ThemeRegistry Extends DrupalCacheArray {
     // are not registered, just check the existence of the key in the registry.
     // Use array_key_exists() here since a NULL value indicates that the theme
     // hook exists but has not yet been requested.
-    return array_key_exists($offset, $this->storage);
+    return isset($this->storage[$offset]) || array_key_exists($offset, $this->storage);
   }
 
   public function offsetGet($offset) {
@@ -1903,8 +1903,7 @@ function theme_breadcrumb($variables) {
     // screen-reader users. Make the heading invisible with .element-invisible.
     $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
 
-    // OLD $output .= '<div class="breadcrumb">' . implode(' » ', $breadcrumb) . '</div>';
-    $output .= '<div class="breadcrumb">' . implode(' > ', $breadcrumb) . '</div>';
+    $output .= '<div class="breadcrumb">' . implode(' » ', $breadcrumb) . '</div>';
     return $output;
   }
 }

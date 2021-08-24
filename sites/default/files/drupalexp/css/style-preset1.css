@@ -4108,6 +4108,28 @@ body.page-node-85 #section-page-title .region-page-title .content div.link_old_e
   color: #fff;
   font-size: 24px;
 }
+#section-tagline {
+  background-color: #fff !important;
+  border-bottom: none;
+  height: 127px;
+}
+#section-tagline .container {
+  width: 600px;
+}
+#section-tagline .HeaderIntroTextCls {
+  font: italic normal normal 18px Segoe UI;
+}
+#section-tagline .HeaderIntroTextCls p {
+  line-height: 30px;
+  color: #353333;
+  font-weight: 500;
+}
+#section-header {
+  border-bottom: 13px solid #56A459;
+}
+#section-banner {
+  border-top: 5px solid #F2B12E;
+}
 #section-clients {
   background-color: white;
   margin-top: 20px;
