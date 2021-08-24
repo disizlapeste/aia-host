@@ -77,8 +77,14 @@ function dexp_page_elements_block_view($delta) {
         $block['content'] .= '<p class="page_subtitle">' . trim($titles[1]) . '</p>';
         drupal_set_title(trim($titles[0]));
         $block['content'] = '<div class="page_title_has_sub">' . $block['content'] . '</div>';
-      } else {
+      } else {     
         $block['content'] = '<div class="page_title_no_sub">' . $block['content'] . '</div>';
+        /**NEW**/
+        $path_alias = drupal_get_path_alias();
+        if ($path_alias == 'content/events') {
+          $block['content'] .= '<div class="link_old_events"><a href="#">Eventi Passati</a><i class="fa fa-calendar">&nbsp;</i></a></div>';
+        }
+        /**END NEW **/
       }
       break;
   }

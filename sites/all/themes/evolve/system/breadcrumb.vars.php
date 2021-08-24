@@ -8,6 +8,7 @@
  * Implements hook_preprocess_breadcrumb().
  */
 function elvolve_preprocess_breadcrumb(&$variables) {
+
   $breadcrumb = &$variables['breadcrumb'];
 
   // Optionally get rid of the homepage link.

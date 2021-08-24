@@ -126,7 +126,7 @@ body.front .progettirecentiblkcls .singoloprogettocls .titoloprogettocls a{
 }
 
 #section-page-title h1.page_title{
-	font-size: 34px;
+	font-size: 26px;
 }
 
 #section-header .dexp-dropdown > ul > li > a:focus{
@@ -189,7 +189,34 @@ body.front .progettirecentiblkcls .singoloprogettocls .titoloprogettocls a{
 
 #section-page-title
 {
-  background-image: url(/sites/all/themes/evolve/assets/images/parallex-inner.jpg);
+  //background-image: url(/sites/all/themes/evolve/assets/images/parallex-inner.jpg);
+	background: #56A459 0% 0% no-repeat;
+	opacity: 1;
+	left: 0px;
+	border-bottom: 5px solid #F2B12E;
+	.container{
+		margin: 18px auto !important;
+	}
+	.region-breadcrumb{
+		.content{
+			.breadcrumb{
+				float: left;
+				color: #fff;
+			}
+			a{
+				color: #fff;
+				&:first-child{
+					margin-right: 15px;
+				}
+				&:nth-child(2){
+					margin-left: 15px;
+				}
+				&:hover{
+					color: #B9BEC3;
+				}
+			}
+		}
+	}
 }
 
 .region-user2  img{
@@ -225,6 +252,7 @@ body.front .progettirecentiblkcls .singoloprogettocls .titoloprogettocls a{
     left: -55px;
 }
 
+/** Section Header */
 #section-header .site-logo img{
 	width: 100px;
 }
@@ -234,6 +262,41 @@ body.front .progettirecentiblkcls .singoloprogettocls .titoloprogettocls a{
     background-color:  #5F8CB4;
 	color: white;
   }
+
+#section-header{
+	.dexp-dropdown > ul > li > a
+	{
+		&.active{
+			font-weight: bold;
+			color: #000;
+		}
+	}
+}
+
+/* only for  page EVENTS */
+body.page-node-85{
+	#section-page-title{
+		.region-page-title{
+			.content{
+				display: flex;
+				justify-content: space-between;
+				div.link_old_events{
+					margin-top: 20px;
+					height:40px;
+					a{
+						color: #fff;
+						text-decoration: underline;
+						margin-right:8px;
+					}
+					i{
+						color: #fff;
+						font-size: 24px;
+					}
+				}
+			}
+		}
+	}
+}
 
 #section-clients{
 	background-color: white;
