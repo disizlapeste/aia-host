@@ -942,7 +942,7 @@ ul.menu {
   border: 1px solid #141A20;
   border-radius: 2px;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.03);
-  color: #BCC1C5;
+  color: white;
   display: block;
   font-size: 12px;
   height: 26px;
@@ -1023,7 +1023,7 @@ ul.menu {
   margin: 0 5px 5px 0;
 }
 #section-bottom .get-in-touch a {
-  color: #BCC1C5;
+  color: white;
 }
 #block-dexp-widget-widget-flickr {
   margin-top: 30px;
@@ -4130,6 +4130,23 @@ body.page-node-85 #section-page-title .region-page-title .content div.link_old_e
 #section-banner {
   border-top: 5px solid #F2B12E;
 }
+#section-bottom {
+  background-color: #8DC28F !important;
+}
+#section-bottom .region-bottom-third {
+  text-align: center;
+}
+#section-bottom .region-bottom-third .content h1 {
+  color: white;
+  font: normal normal bold 24px/32px Segoe UI;
+}
+#section-bottom .region-bottom-first {
+  text-align: center;
+  color: white;
+}
+#section-bottom .region-bottom-first .content ul li {
+  color: white;
+}
 #section-clients {
   background-color: white;
   margin-top: 20px;
@@ -4286,8 +4303,9 @@ body.page-node-85 #section-page-title .region-page-title .content div.link_old_e
   float: left !important;
 }
 .region-bottom-third span.fa {
-  font-size: 20px;
+  font-size: 16px;
   margin-right: 10px;
+  color: white;
 }
 body.node-type-webform .region-right-sidebar,
 body.node-type-webform .region-content {
