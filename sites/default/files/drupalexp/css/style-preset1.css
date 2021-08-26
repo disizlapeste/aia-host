@@ -3926,6 +3926,79 @@ body.front .progettirecentiblkcls .singoloprogettocls .corpoprogcls {
   position: absolute;
   bottom: 0px;
 }
+body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls {
+  background: white;
+  opacity: 0.73;
+  text-align: left;
+  width: 885px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  bottom: 52px;
+}
+body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls {
+  font: normal normal bold 21px Segoe UI;
+  color: black;
+}
+body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls a {
+  color: black;
+}
+body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls a:hover {
+  color: inherit;
+}
+body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .bodyProgettoCls {
+  font: normal normal 15px Segoe UI;
+}
+body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls img {
+  height: 700px !important;
+  margin: 0 auto;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-wrapper .bx-pager.bx-default-pager a:hover a,
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-wrapper .bx-pager.bx-default-pager a {
+  background: white !important;
+  border: none !important;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-wrapper .bx-pager.bx-default-pager a:hover a.active,
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: black !important;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-pager {
+  position: absolute;
+  bottom: 10px;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a {
+  width: 31px;
+  height: 50px;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  opacity: 0.71;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a.bx-prev {
+  left: 115px;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a.bx-next {
+  right: 115px;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a i.fa {
+  border: none;
+  line-height: 46px;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a i.fa:before {
+  color: black;
+  font-size: 46px;
+  font-weight: bold;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a i.fa.fa-angle-left {
+  margin-left: -2px;
+}
+body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a i.fa.fa-angle-right {
+  margin-left: 1px;
+}
 body.front .progettirecentiblkcls .singoloprogettocls .fotoprogcls {
   position: absolute;
   top: 80px;
@@ -4123,6 +4196,9 @@ body.page-node-85 #section-page-title .region-page-title .content div.link_old_e
   line-height: 30px;
   color: #353333;
   font-weight: 500;
+}
+#section-content-top {
+  background: #F2F2F2;
 }
 #section-header {
   border-bottom: 13px solid #56A459;

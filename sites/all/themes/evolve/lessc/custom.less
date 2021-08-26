@@ -33,6 +33,90 @@ body.front .progettirecentiblkcls .singoloprogettocls .titoloprogettocls a{
 	 bottom: 0px;
  }
  
+ body.front .progettirecentiblkcls  .bxslide  .corpoprogcls{
+	div{
+		&.backgroundFotoProgettoCls{
+			position: relative;
+			display: flex;
+			justify-content: space-around;
+			.titleAndBodyCls{
+				background: white;
+				opacity: 0.73;
+				text-align: left;
+				width: 885px;
+				margin: 0 auto;
+				padding-left: 10px;
+    			padding-right: 10px;
+				position: absolute;
+				bottom: 52px;
+				.titoloProgettoCls{
+					font: normal normal bold 21px Segoe UI;
+					color:black;
+					a{
+						color: black;
+						&:hover{
+							color:  inherit;
+						}
+					}
+				}
+				.bodyProgettoCls{
+					font: normal normal 15px Segoe UI;
+				}
+			}
+			img{
+				height: 700px !important;
+				margin: 0 auto;
+			}
+		}
+	}
+ }
+
+ body.front .progettirecentiblkcls .view-progetti-recenti {
+	.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager{
+		a{
+			background: white !important;
+			border: none !important;
+			&.active{
+				background: black !important;
+			}
+		}
+	}
+	.bx-pager{
+		position: absolute;
+		bottom: 10px;
+	}
+	.bx-controls .bx-controls-direction{
+		a{
+			width: 31px;
+			height: 50px;
+			background: #F2F2F2 0% 0% no-repeat padding-box;
+    		opacity: 0.71;
+			&.bx-prev{
+				left: 115px;
+			}
+			&.bx-next{
+				right: 115px;
+			}
+			i.fa{
+				border: none;
+				line-height: 46px;
+				&:before{
+					color: black;
+					font-size: 46px;
+					font-weight: bold;
+				}
+				&.fa-angle-left{
+					margin-left: -2px;
+				}
+				&.fa-angle-right{
+					margin-left: 1px;
+				}
+			}
+		}
+	}
+
+ }
+
  body.front .progettirecentiblkcls .singoloprogettocls .fotoprogcls{
 	 position: absolute; 
 	 top: 80px;
@@ -313,6 +397,10 @@ body.page-node-85{
 			font-weight: 500;
 		}
 	}
+}
+
+#section-content-top{
+	background: #F2F2F2;
 }
 
 #section-header{
