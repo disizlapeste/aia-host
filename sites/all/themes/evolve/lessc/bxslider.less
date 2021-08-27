@@ -131,33 +131,35 @@
 
 .slider-post {
   .bx-controls {
-     position:absolute;
-     top:-50px;
-     right:0;
+    .bx-prev{
+      left: -39px;
+    }
+    .bx-next{
+      right: -35px;
+      i.fa{
+        &:before{
+          margin-left: 3px;
+        }
+      }
+    }
     .fa{
-      border: 1px solid #D7DCE1;
-      color: #D7DCE1;
+      background: lightgray;
+      border: none; /*1px solid #D7DCE1;*/
+      color: #fff;
       border-radius: 2px;
       font-size: 20px;
-      height: 30px;
-      width: 30px;
-      line-height: 30px;
+      height: 67px;
+      width: 36px;
+      line-height: 60px;
       text-align: center;
+      &:before{
+        font-size: 60px;
+      }
       &:hover{
         background-color: @base_color;
         border: 1px solid @base_color;
         color: #fff;
       }
-    }
-    .bx-prev,.bx-next{
-      margin: 5px;
-    }
-    .bx-prev{
-      position: relative;
-    }
-    .bx-next{
-      position: relative;
-      margin-right:0;
     }
   }
   img{
