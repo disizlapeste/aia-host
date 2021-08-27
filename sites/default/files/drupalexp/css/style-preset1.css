@@ -144,7 +144,7 @@ ul:not(.contextual-links) {
 #section-bottom {
   color: #BCC1C5;
   font-size: 13px;
-  padding: 20px 0 20px;
+  padding: 10px 0 20px;
 }
 #section-bottom h3.block-title {
   color: #FFFFFF;
@@ -4383,6 +4383,29 @@ body.front #section-header {
 }
 #section-header .dexp-dropdown a {
   padding: 0px 14px;
+}
+#section-extra-bottom-4 .region-user1 p.socialsHeaderCls,
+#section-extra-bottom-4 .region-user2 p.socialsHeaderCls,
+#section-extra-bottom-4 .region-user3 p.socialsHeaderCls {
+  text-align: left;
+}
+#section-extra-bottom-4 .region-user1 p.socialsHeaderCls i.fa,
+#section-extra-bottom-4 .region-user2 p.socialsHeaderCls i.fa,
+#section-extra-bottom-4 .region-user3 p.socialsHeaderCls i.fa {
+  color: #F2B12E;
+  font-size: 26px;
+}
+#section-extra-bottom-4 .region-user1 p.socialsHeaderCls span,
+#section-extra-bottom-4 .region-user2 p.socialsHeaderCls span,
+#section-extra-bottom-4 .region-user3 p.socialsHeaderCls span {
+  font: normal normal bold 18px/24px Segoe UI;
+  text-transform: uppercase;
+}
+#section-extra-bottom-4 .region-user1 p.socialsHeaderCls {
+  margin-top: -18px;
+}
+#section-extra-bottom-4 .region-user2 p.socialsHeaderCls {
+  margin-top: -12px;
 }
 .team-style-1 .team-about .socialsresponsivecls {
   display: none;
