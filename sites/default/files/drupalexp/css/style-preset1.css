@@ -877,7 +877,7 @@ ul.menu {
 #section-page-title .container .page_title_no_sub h1.page_title {
   margin: 15px 0;
   text-transform: uppercase;
-  font-weight: bold;
+  font: normal normal bold 35px/47px Segoe UI;
 }
 #section-page-title .breadcrumb {
   background-color: transparent;
@@ -4531,6 +4531,54 @@ body.page-node-90 #section-main-content .region-content .main-headline h3.block-
   color: #353333;
   text-transform: uppercase;
   border-bottom: 10px solid #F2B12E;
+}
+body.page-node-84 #section-map .region-map .DescrizioneProgettiTopCls {
+  padding: 30px 0px;
+  background: #FBE7BE;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body.page-node-84 #section-map .region-map .DescrizioneProgettiTopCls .content {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+body.page-node-84 #section-map .region-map .DescrizioneProgettiTopCls .content div.left,
+body.page-node-84 #section-map .region-map .DescrizioneProgettiTopCls .content div.right {
+  font: italic normal normal 18px/24px Segoe UI;
+  width: 45%;
+  letter-spacing: 0px;
+}
+body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #F2F2F2;
+  margin-bottom: 20px;
+}
+body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right {
+  width: 70%;
+  position: relative;
+}
+body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .title {
+  font: normal normal bold 17px/22px Segoe UI;
+  color: #353333;
+}
+body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .descriz_breve {
+  margin-top: 10px;
+}
+body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .read_more {
+  position: absolute;
+  bottom: 10px;
+}
+body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .read_more a {
+  color: black;
+  font: normal normal bold 16px/21px Segoe UI;
+}
+body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.left img {
+  width: 260px auto;
+  max-width: 260px;
 }
 body.page-node-87  h2.block-title {
   text-transform: uppercase;
