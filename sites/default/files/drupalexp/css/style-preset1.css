@@ -4586,6 +4586,65 @@ body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-
   width: 260px auto;
   max-width: 260px;
 }
+body.node-type-progetto #section-page-title h1.page_title {
+  text-transform: inherit !important;
+}
+body.node-type-progetto #section-main-content div.container {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+body.node-type-progetto #section-main-content div.container .bodyHeader {
+  background: #FBE7BE;
+}
+body.node-type-progetto #section-main-content div.container .bodyHeader .bodyHeaderContent {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+body.node-type-progetto #section-main-content div.container .bodyHeader .bodyHeaderContent .bodyLeftCls {
+  width: 45%;
+  font: italic normal normal 18px/24px Segoe UI;
+}
+body.node-type-progetto #section-main-content div.container .bodyHeader .bodyHeaderContent .bodyRightCls {
+  width: 45%;
+  font: italic normal normal 18px/24px Segoe UI;
+}
+body.node-type-progetto #section-main-content div.container .node-progetto.clearfix {
+  margin-top: 30px;
+}
+body.node-type-progetto #section-main-content div.container .node-progetto.clearfix .bx-wrapper .bx-controls .bx-controls-direction a {
+  width: 31px;
+  height: 50px;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  opacity: 0.71;
+}
+body.node-type-progetto #section-main-content div.container .node-progetto.clearfix .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
+  left: 15px;
+}
+body.node-type-progetto #section-main-content div.container .node-progetto.clearfix .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
+  right: 15px;
+}
+body.node-type-progetto #section-main-content div.container .node-progetto.clearfix .bx-wrapper .bx-controls .bx-controls-direction a i.fa {
+  border: none;
+  line-height: 46px;
+}
+body.node-type-progetto #section-main-content div.container .node-progetto.clearfix .bx-wrapper .bx-controls .bx-controls-direction a i.fa:before {
+  color: black;
+  font-size: 46px;
+  font-weight: bold;
+}
+body.node-type-progetto #section-main-content div.container .node-progetto.clearfix .bx-wrapper .bx-controls .bx-controls-direction a i.fa.fa-angle-left {
+  margin-left: -2px;
+}
+body.node-type-progetto #section-main-content div.container .node-progetto.clearfix .bx-wrapper .bx-controls .bx-controls-direction a i.fa.fa-angle-right {
+  margin-left: 1px;
+}
+body.node-type-progetto #section-page-title {
+  margin-bottom: 0px;
+}
 body.page-node-87  h2.block-title {
   text-transform: uppercase;
 }
