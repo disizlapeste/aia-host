@@ -34,5 +34,5 @@
 ?>
 
 <header class="meta"> <h2 class="titolo"><a><?php print $title; ?></a></h2></header>
-<?php print substr($body, 0, 300)."..."; ?>
+<?php print substr($body, 0, 150)."..."; ?>
 <p class="eventolnk"><a href="<?php print $nodeurl; ?>"><?php print $readmoretxt; ?></a></p>

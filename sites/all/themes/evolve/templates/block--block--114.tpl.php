@@ -7,16 +7,26 @@
         slider_options.randomStart = false;
         slider_options.responsive = true;
         slider_options.infinite = true;
-        slider_options.auto = false;
+        slider_options.auto = true;
         slider_options.pause = 4000;
         slider_options.keyboardEnabled = true;
         slider_options.pager= false;
-		slider_options.minSlides= 2;
+		slider_options.minSlides= 1;
 		slider_options.maxSlides= 3;
 		slider_options.moveSlides= 1;
 		slider_options.ariaHidden = true;
 		slider_options.ariaLive = true;
-      jQuery('.bxslider').bxSlider(slider_options);
+		slider_options.slideMargin = 35;
+		slider_options.onSliderLoad = function($slideElement) {
+		};
+      var sliderx =jQuery('.bxslider').bxSlider(slider_options);
+	  for(var index in sliderx) {
+			if(sliderx[index].classList.contains('louba_fotos')){
+				var numfoto = sliderx[index].childElementCount;
+				jQuery('.bxslider.louba_fotos').closest('.bx-wrapper').append('<div class="NumFotosCls">'+numfoto+' Foto'+'</div>');
+				break;
+			}
+		}
     });
  </script>
 <?php
@@ -31,7 +41,9 @@
  * 
 */
 ?>
-
+<div class="titleBlkCls">
+	<h3 class="headline"><?php print render($block->subject); ?></h3>
+</div>
 <?php
   $nids = db_query("SELECT nid FROM {node} WHERE type = :type", array(':type' => 'dexp_portfolio'))
   ->fetchCol();
@@ -53,16 +65,21 @@
 <?php $count = count($louba_fotos); 
 	if($count > 0) {
 ?>
-<div class="bxslider" style="padding-left:25%; padding-right:25%;">
+<div class="bxslider louba_fotos" style="padding-left:25%; padding-right:25%;">
 	<?php 
 	foreach($louba_fotos as $foto) {
 	?>
 		<div class="slide singleFotoCls" style="margin-right:20px;"> <img src="<?php print $foto; ?>" /></div>
 	<?php 
-		}  // end foreact
-	}// enf if
+		}  // end foreach
 	?>
 </div>
+<?php
+	}// enf if 
+?>
+<script>
+</script>
+
 
 
 
