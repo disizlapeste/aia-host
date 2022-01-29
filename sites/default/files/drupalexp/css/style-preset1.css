@@ -4709,6 +4709,27 @@ body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-
   width: 260px auto;
   max-width: 260px;
 }
+body.page-node-1584 #section-page-title {
+  margin-bottom: 0px;
+}
+body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls {
+  padding: 30px 0px;
+  background: #FBE7BE;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content div.left,
+body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content div.right {
+  font: italic normal normal 18px/24px Segoe UI;
+  width: 45%;
+  letter-spacing: 0px;
+}
 body.node-type-progetto #section-page-title h1.page_title {
   text-transform: inherit !important;
 }
@@ -4835,6 +4856,45 @@ body.page-node-87  h2.block-title {
   }
   .region-user2  .animated {
     padding: 100px 0 0 0 !important;
+  }
+  #section-tagline .container {
+    width: 100%;
+  }
+  #section-tagline .HeaderIntroTextCls {
+    font: italic normal normal 15px Segoe UI;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls {
+    background: white;
+    opacity: 0.73;
+    text-align: left;
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 52px;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls {
+    font: normal normal bold 21px Segoe UI;
+    color: black;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls a {
+    color: black;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls a:hover {
+    color: inherit;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .bodyProgettoCls {
+    font: normal normal 15px Segoe UI;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls img {
+    height: 400px !important;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 480px) {
