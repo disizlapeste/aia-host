@@ -213,20 +213,21 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
       'database' => 'uqb6glz6_ingegneriafricani',
-      'username' => 'uqb6glz6',
-      'password' => 'pQFqeh69',
-      'host' => 'localhost',
+      'username' => 'uqb6glz6_ingegneriafricani',
+      'password' => 'GDToF4nkUR',
+      'host' => 'mysqlhost',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
     ),
   ),
 );
+
 
 /**
  * Access control for update.php script.
