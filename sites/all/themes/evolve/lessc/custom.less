@@ -451,7 +451,7 @@ body.page-node-85{
 #section-tagline{
 	background-color: #fff !important;
 	border-bottom: none;
-	height:127px;
+	height:70px;
 	.container{
 		width: 600px;
 	}
@@ -506,30 +506,89 @@ body.front #section-header{
 #section-clients{
 	background-color: #56A459;
 	margin-top: 20px;
-	
-	.view-clients .bx-controls .fa{
-		border: 1px solid #5F8CB4;
-		color: #5F8CB4;	
+	.CollaborazioniCls{
+		.view-clients .bx-controls .fa{
+			border: 1px solid #5F8CB4;
+			color: #5F8CB4;	
+		}
+		.view-clients .bx-controls a.bx-prev{
+			left: -20px;
+		}
+		.view-clients .bx-controls a.bx-next{
+			right: -20px;
+		}
+		.view-clients .bx-controls a:hover i{
+			 background: #5F8CB4;
+			 color: white;
+		}
+		.bx-wrapper .bx-viewport{
+			height: 80px !important;
+		}
+		.bxslide{
+			height: 80px;
+			padding-top: 10px;
+			background: white;
+		}
 	}
-	.view-clients .bx-controls a.bx-prev{
-		left: -20px;
-	}
-	.view-clients .bx-controls a.bx-next{
-		right: -20px;
-	}
-	.view-clients .bx-controls a:hover i{
-		 background: #5F8CB4;
-		 color: white;
-	}
-	.bx-wrapper .bx-viewport{
-		height: 80px !important;
-	}
-	.bxslide{
-		height: 80px;
-		padding-top: 10px;
-		background: white;
+	.ProgettiFooterCls{
+		.view-clients .bx-controls .fa{
+			border: 1px solid #5F8CB4;
+			color: #5F8CB4;	
+		}
+		.view-clients .bx-controls a.bx-prev{
+			left: -20px;
+		}
+		.view-clients .bx-controls a.bx-next{
+			right: -20px;
+		}
+		.view-clients .bx-controls a:hover i{
+			 background: #5F8CB4;
+			 color: white;
+		}
+		.bx-wrapper .bx-viewport{
+			height: 270px !important;
+		}
+
+		.bx-wrapper img{
+			height: 200px;
+			width: auto;
+		}
+
+		.bxslide{
+			height: 80px;
+			padding-top: 10px;
+			background: white;
+			.views-field-title {
+				text-align:center;
+    			font-weight: bold;
+				font-size: 14px;
+				margin: 0 auto;
+				margin-top: 10px;
+				width: 400px;
+				a{
+					color: black;
+				}
+			}
+		}		
 	}
 }
+
+body.front #section-clients{
+	height: 360px;
+}
+body.not-front #section-clients{
+	.ProgettiFooterCls{
+		margin-bottom: 20px;
+	}
+}
+
+/** TRASPARENZA **/
+.TrasparenzaCls {
+	.singleTrasparenzaCls{
+		margin-bottom: 10px;
+	}
+}
+
 /** Foto gallery**/
 .fotogallerycls .portfolio-filters li a:focus{
 	text-decoration: none;
@@ -658,7 +717,7 @@ body.front #section-header{
 		}
 	}
 	.region-user1 p.socialsHeaderCls{
-		margin-top: -18px;
+		margin-top: -22px;
 	}
 	.region-user2 p.socialsHeaderCls{
 		margin-top: -12px;
@@ -1059,6 +1118,35 @@ body.page-node-84{
 		}
 	}
 }
+
+/*** Trasparenza**/
+body.page-node-1584{
+	#section-page-title{
+		margin-bottom: 0px;
+	}
+	#section-map{
+		.region-map{
+			 .DescrizioneTrasparenzaTopCls{
+				padding: 30px 0px;
+				background: #FBE7BE;
+				margin-top: 0px;
+				margin-bottom: 20px;
+				.content{
+					width: 1140px;
+					display: flex;
+					justify-content: space-between;
+					margin: 0 auto;
+					div.left, div.right{
+						font: italic normal normal 18px/24px Segoe UI;
+						width: 45%;
+						letter-spacing: 0px;
+					}
+				}				
+			}
+		}
+	}
+}
+
 /** single project */
 body.node-type-progetto {
 	#section-page-title{
@@ -1223,4 +1311,49 @@ body.page-node-87  h2.block-title{
 	.region-user2  .animated{
 	padding: 100px 0 0 0 !important;
 	}
+	#section-tagline{
+		.container{
+			width: 100%;
+		}
+		.HeaderIntroTextCls{
+			font: italic normal normal 15px Segoe UI;
+		}
+	}
+	body.front .progettirecentiblkcls  .bxslide  .corpoprogcls{
+		div{
+			&.backgroundFotoProgettoCls{
+				position: relative;
+				display: flex;
+				justify-content: space-around;
+				.titleAndBodyCls{
+					background: white;
+					opacity: 0.73;
+					text-align: left;
+					width: 95%;
+					margin: 0 auto;
+					padding-left: 10px;
+					padding-right: 10px;
+					position: absolute;
+					bottom: 52px;
+					.titoloProgettoCls{
+						font: normal normal bold 21px Segoe UI;
+						color:black;
+						a{
+							color: black;
+							&:hover{
+								color:  inherit;
+							}
+						}
+					}
+					.bodyProgettoCls{
+						font: normal normal 15px Segoe UI;
+					}
+				}
+				img{
+					height: 400px !important;
+					margin: 0 auto;
+				}
+			}
+		}
+	 }
 }

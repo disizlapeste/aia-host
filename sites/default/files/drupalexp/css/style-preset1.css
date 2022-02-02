@@ -4235,7 +4235,7 @@ body.page-node-85 #section-page-title .region-page-title .content div.link_old_e
 #section-tagline {
   background-color: #fff !important;
   border-bottom: none;
-  height: 127px;
+  height: 70px;
 }
 #section-tagline .container {
   width: 600px;
@@ -4282,27 +4282,73 @@ body.front #section-header {
   background-color: #56A459;
   margin-top: 20px;
 }
-#section-clients .view-clients .bx-controls .fa {
+#section-clients .CollaborazioniCls .view-clients .bx-controls .fa {
   border: 1px solid #5F8CB4;
   color: #5F8CB4;
 }
-#section-clients .view-clients .bx-controls a.bx-prev {
+#section-clients .CollaborazioniCls .view-clients .bx-controls a.bx-prev {
   left: -20px;
 }
-#section-clients .view-clients .bx-controls a.bx-next {
+#section-clients .CollaborazioniCls .view-clients .bx-controls a.bx-next {
   right: -20px;
 }
-#section-clients .view-clients .bx-controls a:hover i {
+#section-clients .CollaborazioniCls .view-clients .bx-controls a:hover i {
   background: #5F8CB4;
   color: white;
 }
-#section-clients .bx-wrapper .bx-viewport {
+#section-clients .CollaborazioniCls .bx-wrapper .bx-viewport {
   height: 80px !important;
 }
-#section-clients .bxslide {
+#section-clients .CollaborazioniCls .bxslide {
   height: 80px;
   padding-top: 10px;
   background: white;
+}
+#section-clients .ProgettiFooterCls .view-clients .bx-controls .fa {
+  border: 1px solid #5F8CB4;
+  color: #5F8CB4;
+}
+#section-clients .ProgettiFooterCls .view-clients .bx-controls a.bx-prev {
+  left: -20px;
+}
+#section-clients .ProgettiFooterCls .view-clients .bx-controls a.bx-next {
+  right: -20px;
+}
+#section-clients .ProgettiFooterCls .view-clients .bx-controls a:hover i {
+  background: #5F8CB4;
+  color: white;
+}
+#section-clients .ProgettiFooterCls .bx-wrapper .bx-viewport {
+  height: 270px !important;
+}
+#section-clients .ProgettiFooterCls .bx-wrapper img {
+  height: 200px;
+  width: auto;
+}
+#section-clients .ProgettiFooterCls .bxslide {
+  height: 80px;
+  padding-top: 10px;
+  background: white;
+}
+#section-clients .ProgettiFooterCls .bxslide .views-field-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 400px;
+}
+#section-clients .ProgettiFooterCls .bxslide .views-field-title a {
+  color: black;
+}
+body.front #section-clients {
+  height: 360px;
+}
+body.not-front #section-clients .ProgettiFooterCls {
+  margin-bottom: 20px;
+}
+.TrasparenzaCls .singleTrasparenzaCls {
+  margin-bottom: 10px;
 }
 .fotogallerycls .portfolio-filters li a:focus {
   text-decoration: none;
@@ -4405,7 +4451,7 @@ body.front #section-header {
   text-transform: uppercase;
 }
 #section-extra-bottom-4 .region-user1 p.socialsHeaderCls {
-  margin-top: -18px;
+  margin-top: -22px;
 }
 #section-extra-bottom-4 .region-user2 p.socialsHeaderCls {
   margin-top: -12px;
@@ -4709,6 +4755,27 @@ body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-
   width: 260px auto;
   max-width: 260px;
 }
+body.page-node-1584 #section-page-title {
+  margin-bottom: 0px;
+}
+body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls {
+  padding: 30px 0px;
+  background: #FBE7BE;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content div.left,
+body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content div.right {
+  font: italic normal normal 18px/24px Segoe UI;
+  width: 45%;
+  letter-spacing: 0px;
+}
 body.node-type-progetto #section-page-title h1.page_title {
   text-transform: inherit !important;
 }
@@ -4835,6 +4902,45 @@ body.page-node-87  h2.block-title {
   }
   .region-user2  .animated {
     padding: 100px 0 0 0 !important;
+  }
+  #section-tagline .container {
+    width: 100%;
+  }
+  #section-tagline .HeaderIntroTextCls {
+    font: italic normal normal 15px Segoe UI;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls {
+    background: white;
+    opacity: 0.73;
+    text-align: left;
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 52px;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls {
+    font: normal normal bold 21px Segoe UI;
+    color: black;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls a {
+    color: black;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls a:hover {
+    color: inherit;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .bodyProgettoCls {
+    font: normal normal 15px Segoe UI;
+  }
+  body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls img {
+    height: 400px !important;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 480px) {
