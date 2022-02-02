@@ -4235,7 +4235,7 @@ body.page-node-85 #section-page-title .region-page-title .content div.link_old_e
 #section-tagline {
   background-color: #fff !important;
   border-bottom: none;
-  height: 127px;
+  height: 70px;
 }
 #section-tagline .container {
   width: 600px;
@@ -4282,27 +4282,73 @@ body.front #section-header {
   background-color: #56A459;
   margin-top: 20px;
 }
-#section-clients .view-clients .bx-controls .fa {
+#section-clients .CollaborazioniCls .view-clients .bx-controls .fa {
   border: 1px solid #5F8CB4;
   color: #5F8CB4;
 }
-#section-clients .view-clients .bx-controls a.bx-prev {
+#section-clients .CollaborazioniCls .view-clients .bx-controls a.bx-prev {
   left: -20px;
 }
-#section-clients .view-clients .bx-controls a.bx-next {
+#section-clients .CollaborazioniCls .view-clients .bx-controls a.bx-next {
   right: -20px;
 }
-#section-clients .view-clients .bx-controls a:hover i {
+#section-clients .CollaborazioniCls .view-clients .bx-controls a:hover i {
   background: #5F8CB4;
   color: white;
 }
-#section-clients .bx-wrapper .bx-viewport {
+#section-clients .CollaborazioniCls .bx-wrapper .bx-viewport {
   height: 80px !important;
 }
-#section-clients .bxslide {
+#section-clients .CollaborazioniCls .bxslide {
   height: 80px;
   padding-top: 10px;
   background: white;
+}
+#section-clients .ProgettiFooterCls .view-clients .bx-controls .fa {
+  border: 1px solid #5F8CB4;
+  color: #5F8CB4;
+}
+#section-clients .ProgettiFooterCls .view-clients .bx-controls a.bx-prev {
+  left: -20px;
+}
+#section-clients .ProgettiFooterCls .view-clients .bx-controls a.bx-next {
+  right: -20px;
+}
+#section-clients .ProgettiFooterCls .view-clients .bx-controls a:hover i {
+  background: #5F8CB4;
+  color: white;
+}
+#section-clients .ProgettiFooterCls .bx-wrapper .bx-viewport {
+  height: 270px !important;
+}
+#section-clients .ProgettiFooterCls .bx-wrapper img {
+  height: 200px;
+  width: auto;
+}
+#section-clients .ProgettiFooterCls .bxslide {
+  height: 80px;
+  padding-top: 10px;
+  background: white;
+}
+#section-clients .ProgettiFooterCls .bxslide .views-field-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 400px;
+}
+#section-clients .ProgettiFooterCls .bxslide .views-field-title a {
+  color: black;
+}
+body.front #section-clients {
+  height: 360px;
+}
+body.not-front #section-clients .ProgettiFooterCls {
+  margin-bottom: 20px;
+}
+.TrasparenzaCls .singleTrasparenzaCls {
+  margin-bottom: 10px;
 }
 .fotogallerycls .portfolio-filters li a:focus {
   text-decoration: none;
@@ -4405,7 +4451,7 @@ body.front #section-header {
   text-transform: uppercase;
 }
 #section-extra-bottom-4 .region-user1 p.socialsHeaderCls {
-  margin-top: -18px;
+  margin-top: -22px;
 }
 #section-extra-bottom-4 .region-user2 p.socialsHeaderCls {
   margin-top: -12px;
