@@ -4707,6 +4707,26 @@ body.page-node-90 #section-main-content .region-content .main-headline h3.block-
 body.page-node-84 #section-page-title {
   margin-bottom: 0px;
 }
+body.page-node-84 #section-page-title .region-page-title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+body.page-node-84 #section-page-title .region-page-title .SostenereProgettiLnkCls .content {
+  padding-top: 25px;
+}
+body.page-node-84 #section-page-title .region-page-title .SostenereProgettiLnkCls .content i {
+  margin-right: 5px;
+  font-size: 20px;
+  color: white;
+  vertical-align: middle;
+}
+body.page-node-84 #section-page-title .region-page-title .SostenereProgettiLnkCls .content a {
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 20px;
+}
 body.page-node-84 #section-map .region-map .DescrizioneProgettiTopCls {
   padding: 30px 0px;
   background: #FBE7BE;
@@ -4757,6 +4777,26 @@ body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-
 }
 body.page-node-1584 #section-page-title {
   margin-bottom: 0px;
+}
+body.page-node-1584 #section-page-title .region-page-title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+body.page-node-1584 #section-page-title .region-page-title .SostenereProgettiLnkCls .content {
+  padding-top: 25px;
+}
+body.page-node-1584 #section-page-title .region-page-title .SostenereProgettiLnkCls .content i {
+  margin-right: 5px;
+  font-size: 20px;
+  color: white;
+  vertical-align: middle;
+}
+body.page-node-1584 #section-page-title .region-page-title .SostenereProgettiLnkCls .content a {
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 20px;
 }
 body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls {
   padding: 30px 0px;
