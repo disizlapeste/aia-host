@@ -4241,12 +4241,14 @@ body.page-node-85 #section-page-title .region-page-title .content div.link_old_e
   width: 600px;
 }
 #section-tagline .HeaderIntroTextCls {
-  font: italic normal normal 18px Segoe UI;
+  font: italic normal normal 30px Segoe UI;
 }
 #section-tagline .HeaderIntroTextCls p {
   line-height: 30px;
-  color: #353333;
+  color: #56A459;
   font-weight: 500;
+  text-transform: none;
+  font-size: 25px;
 }
 #section-content-top {
   background: #F2F2F2;
