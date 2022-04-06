@@ -209,6 +209,7 @@
  *   $databases['default']['default'] = array(
  *     'driver' => 'sqlite',
  *     'database' => '/path/to/databasefilename',
+ * 'database' => 'uqb6glz6_ingegneriafricani',
  *   );
  * @endcode
  */
@@ -217,7 +218,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'uqb6glz6_ingegneriafricani',
+      'database' => 'aia2',
       'username' => 'root',
       'password' => '',
       'host' => 'localhost',
