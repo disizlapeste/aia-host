@@ -26,9 +26,9 @@
 	
 	/*Adjust bxslider options to fix on any screen*/
 	function jmbxAdjustOptions(options, container_width){
+    options.touchEnabled = false;  //fix for click on home page bxslider
 		var _options = {};
 		$.extend(_options, options);
-		
 		if((_options.slideWidth*_options.maxSlides + (_options.slideMargin*(_options.maxSlides-1))) < container_width){
 			_options.slideWidth = (container_width-(_options.slideMargin*(_options.maxSlides-1)))/_options.maxSlides;
 		}else{
