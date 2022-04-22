@@ -23,7 +23,7 @@
       <?php print render($content['field_portfolio_images']); ?>
       <div class="mediaholder"></div>
       <div class="portfolio-image-zoom">
-        <a href="<?php print $image_path;?>" rel="lightbox[<?php print $lightboxrel;?>]"><span class="fa fa-search"></span></a>
+        <a href="<?php if(isset($image_path)) print $image_path;?>" rel="lightbox[<?php print $lightboxrel;?>]"><span class="fa fa-search"></span></a>
       </div>
     </div>
     <div class="item-description">

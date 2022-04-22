@@ -209,6 +209,7 @@
  *   $databases['default']['default'] = array(
  *     'driver' => 'sqlite',
  *     'database' => '/path/to/databasefilename',
+ * 'database' => 'uqb6glz6_ingegneriafricani',
  *   );
  * @endcode
  */
