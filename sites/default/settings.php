@@ -218,7 +218,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'aia2',
+      'database' => 'uqb6glz6_ingegneriafricani',
       'username' => 'root',
       'password' => '',
       'host' => 'localhost',
