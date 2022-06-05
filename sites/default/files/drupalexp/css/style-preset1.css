@@ -125,7 +125,7 @@ ul:not(.contextual-links) {
 }
 #section-page-title {
   clear: both;
-  background-image: url("/fr/sites/all/themes/evolve/assets/images/parallex-inner.jpg");
+  background-image: url("/it/sites/all/themes/evolve/assets/images/parallex-inner.jpg");
   background-attachment: fixed;
   background-position: 50% 0;
 }
@@ -291,7 +291,7 @@ h1.parallex-slider-title.white {
   display: none;
 }
 .default #section-extra-bottom-1 {
-  background: url(/fr/sites/all/themes/evolve/assets/images/bg-facts.png) no-repeat scroll 50% center rgba(0,0,0,0);
+  background: url(/it/sites/all/themes/evolve/assets/images/bg-facts.png) no-repeat scroll 50% center rgba(0,0,0,0);
   margin-top: 40px;
 }
 @media (max-width: 991px) {
@@ -321,14 +321,14 @@ h1.parallex-slider-title.white {
 }
 .view-gallery span.gallery-next {
   opacity: 0;
-  background: url("/fr/sites/all/themes/evolve/assets/images/camera_skins.png") no-repeat scroll -40px 0 rgba(216,216,216,0.85);
+  background: url("/it/sites/all/themes/evolve/assets/images/camera_skins.png") no-repeat scroll -40px 0 rgba(216,216,216,0.85);
   display: block;
   height: 40px;
   width: 40px;
 }
 .view-gallery span.gallery-prev {
   opacity: 0;
-  background: url("/fr/sites/all/themes/evolve/assets/images/camera_skins.png") no-repeat scroll 0 0 rgba(216,216,216,0.85);
+  background: url("/it/sites/all/themes/evolve/assets/images/camera_skins.png") no-repeat scroll 0 0 rgba(216,216,216,0.85);
   display: block;
   height: 40px;
   width: 40px;
@@ -509,10 +509,10 @@ body.rtl .list-4 li:after {
   content: "";
 }
 body.rtl .panel-group.default .panel-heading a.collapsed {
-  background: url("/fr/sites/all/themes/evolve/assets/images/accordion-toggle.png") no-repeat 0 0 #fff;
+  background: url("/it/sites/all/themes/evolve/assets/images/accordion-toggle.png") no-repeat 0 0 #fff;
 }
 body.rtl .panel-group.default .panel-heading a {
-  background: url("/fr/sites/all/themes/evolve/assets/images/accordion-toggle.png") no-repeat 0 100% #5F8CB4;
+  background: url("/it/sites/all/themes/evolve/assets/images/accordion-toggle.png") no-repeat 0 100% #5F8CB4;
 }
 body.rtl .headline {
   padding-right: 0;
@@ -1414,7 +1414,7 @@ div.dexp_carousel:hover .left span {
   color: #b9bec3;
   margin: 0 5px 0px 0;
   padding: 0 10px 0 0;
-  background: url('/fr/sites/all/themes/evolve/assets/images/blog-divider.png') no-repeat 100% 55%;
+  background: url('/it/sites/all/themes/evolve/assets/images/blog-divider.png') no-repeat 100% 55%;
   font-style: italic;
   font-size: 12px;
 }
@@ -1522,7 +1522,7 @@ div.dexp_carousel:hover .left span {
   width: 100%;
 }
 #tline-content {
-  background: url("/fr/sites/all/themes/evolve/assets/images/bg-timeline.png") repeat-y scroll center center rgba(0,0,0,0);
+  background: url("/it/sites/all/themes/evolve/assets/images/bg-timeline.png") repeat-y scroll center center rgba(0,0,0,0);
   margin: 0 auto;
   overflow: hidden;
 }
@@ -1569,7 +1569,7 @@ div.dexp_carousel:hover .left span {
 }
 .tline-row-l,
 .tline-row-r {
-  background: url("/fr/sites/all/themes/evolve/assets/images/right-timeline.png") no-repeat scroll right 12% rgba(0,0,0,0);
+  background: url("/it/sites/all/themes/evolve/assets/images/right-timeline.png") no-repeat scroll right 12% rgba(0,0,0,0);
   display: block;
   height: 17px;
   margin-right: -68px;
@@ -1579,7 +1579,7 @@ div.dexp_carousel:hover .left span {
   width: 68px;
 }
 .tline-row-r {
-  background: url("/fr/sites/all/themes/evolve/assets/images/left-timeline.png") no-repeat scroll left 12% rgba(0,0,0,0);
+  background: url("/it/sites/all/themes/evolve/assets/images/left-timeline.png") no-repeat scroll left 12% rgba(0,0,0,0);
   left: 0;
   margin: 0 0 0 -68px;
 }
@@ -1608,7 +1608,7 @@ div.dexp_carousel:hover .left span {
   margin: 20px 0 0 110px;
 }
 .arrow-comment {
-  background: url("/fr/sites/all/themes/evolve/assets/images/comment-arrow.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+  background: url("/it/sites/all/themes/evolve/assets/images/comment-arrow.png") no-repeat scroll 0 0 rgba(0,0,0,0);
   float: left;
   height: 20px;
   margin-left: -30px;
@@ -2900,7 +2900,7 @@ blockquote {
 }
 .testimonial-style-01 .testimonials-bg,
 .testimonial-style-03 .testimonials-bg {
-  background: url("/fr/sites/all/themes/evolve/assets/images/testimonials-bg.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+  background: url("/it/sites/all/themes/evolve/assets/images/testimonials-bg.png") no-repeat scroll 0 0 rgba(0,0,0,0);
   display: block;
   height: 30px;
   margin-left: 27px;
@@ -3682,7 +3682,7 @@ h3.block-title {
   text-decoration: none;
 }
 .panel-group.default .panel-heading a.collapsed {
-  background: url("/fr/sites/all/themes/evolve/assets/images/accordion-toggle.png") no-repeat 100% 0 #fff;
+  background: url("/it/sites/all/themes/evolve/assets/images/accordion-toggle.png") no-repeat 100% 0 #fff;
 }
 .panel-group.question .panel-heading a.collapsed {
   background-color: #fff;
@@ -3695,7 +3695,7 @@ h3.block-title {
   padding-right: 10px;
 }
 .panel-group.default .panel-heading a {
-  background: url("/fr/sites/all/themes/evolve/assets/images/accordion-toggle.png") no-repeat 100% 100% #5F8CB4;
+  background: url("/it/sites/all/themes/evolve/assets/images/accordion-toggle.png") no-repeat 100% 100% #5F8CB4;
 }
 .panel-group.question .panel-heading a {
   background-color: #5F8CB4;
@@ -3881,7 +3881,7 @@ h3.block-title {
 }
 #block-dexp-quicksettings-dexp-quicksettings .quicksettings_toggle {
   box-shadow: 0 0 3px 0 rgba(0,0,0,0.08);
-  background: url("/fr/sites/all/themes/evolve/assets/images/switcher.gif") no-repeat scroll 10px center #FFFFFF;
+  background: url("/it/sites/all/themes/evolve/assets/images/switcher.gif") no-repeat scroll 10px center #FFFFFF;
   border-color: #EEEEEE;
   border-radius: 0 2px 2px 0;
   border-style: solid;
