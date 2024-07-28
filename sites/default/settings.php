@@ -213,6 +213,7 @@
  *   );
  * @endcode
  */
+/* PROD SETTINGS 
 $databases = array (
   'default' =>
   array (
@@ -225,6 +226,23 @@ $databases = array (
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
+    ),
+  ),
+);
+*/
+/*** DEV / LOCAL SETTINGS  ***/
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'uqb6glz6_ingegneriafricani',
+      'username' => 'root',
+      'password' => '',
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => ''
     ),
   ),
 );
@@ -241,7 +259,7 @@ $databases = array (
  * After finishing the upgrade, be sure to open this file again and change the
  * TRUE back to a FALSE!
  */
-$update_free_access = FALSE;
+$update_free_access = TRUE;
 
 /**
  * Salt for one-time login links and cancel links, form tokens, etc.
