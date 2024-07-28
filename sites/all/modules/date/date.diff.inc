@@ -32,6 +32,7 @@ function date_field_diff_view($items, $context) {
       case 'value2':
         $diff_items[$delta] = $date[$display['settings']['fromto']]['formatted'];
         break;
+
     }
   }
   return $diff_items;
@@ -51,7 +52,7 @@ function date_field_diff_default_options($field_type) {
  * Provide a form for setting the field comparison options.
  */
 function date_field_diff_options_form($field_type, $settings) {
-  $form = array();
+  $options_form = array();
 
   $form['format_type'] = array(
     '#title' => t('Choose how render dates and times'),
@@ -74,5 +75,5 @@ function date_field_diff_options_form($field_type, $settings) {
     '#weight' => 1,
   );
 
-  return $form;
+  return $options_form;
 }
