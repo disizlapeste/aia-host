@@ -3964,6 +3964,7 @@ body.front .progettirecentiblkcls .view-progetti-recenti .bx-wrapper .bx-pager.b
 body.front .progettirecentiblkcls .view-progetti-recenti .bx-wrapper .bx-pager.bx-default-pager a:hover a.active,
 body.front .progettirecentiblkcls .view-progetti-recenti .bx-wrapper .bx-pager.bx-default-pager a.active {
   background: black !important;
+  border: white 1px solid !important;
 }
 body.front .progettirecentiblkcls .view-progetti-recenti .bx-pager {
   position: absolute;
@@ -4381,7 +4382,7 @@ body.not-front #section-clients .ProgettiFooterCls {
 .team-style-1 .team-member-info-wrp:after {
   transform: translate(-50%,-50%) rotate(270deg);
   top: 50%;
-  left: 200px;
+  left: 205px;
   content: '';
   border: 20px solid;
   position: absolute;
@@ -4623,6 +4624,13 @@ body.node-type-progetto div.region-testimonial div.NumFotosCls {
 .singoloeventocls .rightcontentcls p:not(.eventolnk) {
   margin-bottom: 5px;
   font-weight: 400;
+}
+.singoloeventocls .rightcontentcls .bodyContentCls {
+  max-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 99%;
 }
 .singoloeventocls .leftcontentcls h4.mese span {
   font-weight: 600;
@@ -4964,6 +4972,7 @@ body.page-node-87  h2.block-title {
     position: relative;
     display: flex;
     justify-content: space-around;
+    background: #332f2f;
   }
   body.front .progettirecentiblkcls  .bxslide  .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls {
     background: white;
@@ -4993,6 +5002,193 @@ body.page-node-87  h2.block-title {
     height: 400px !important;
     margin: 0 auto;
   }
+  body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a {
+    background: lightgray 0% 0% no-repeat padding-box;
+    width: 30px;
+    height: 30px;
+  }
+  body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a.bx-prev {
+    left: 15px;
+    top: 20px;
+  }
+  body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a.bx-next {
+    right: 15px;
+    top: 20px;
+  }
+  body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a i.fa {
+    line-height: 30px;
+    width: 32px;
+    height: 32px;
+  }
+  body.front .progettirecentiblkcls .view-progetti-recenti .bx-controls .bx-controls-direction a i.fa:before {
+    font-size: 30px;
+  }
+  body.page-node-90 #section-map .region-map .ourNumbersAboutUsCls .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  body.page-node-90 #section-map .region-map .descrizioneAiaAboutUsCls .content {
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  body.page-node-90 #section-map .region-map .descrizioneAiaAboutUsCls .content div.left,
+  body.page-node-90 #section-map .region-map .descrizioneAiaAboutUsCls .content div.right {
+    width: 90%;
+  }
+  body.page-node-90 .view-team .dexp-grid-items .row {
+    display: flex;
+    flex-direction: column;
+  }
+  body.page-node-90 .view-team .dexp-grid-items .row .dexp-grid-item {
+    width: 100%;
+  }
+  body.page-node-84 #section-map .region-map .DescrizioneProgettiTopCls .content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  body.page-node-84 #section-map .region-map .DescrizioneProgettiTopCls .content div.left,
+  body.page-node-84 #section-map .region-map .DescrizioneProgettiTopCls .content div.right {
+    width: 90%;
+  }
+  body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls {
+    gap: 5px;
+  }
+  body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .descriz_breve {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .read_more {
+    bottom: 0px;
+  }
+  body.node-type-progetto #section-main-content div.container .bodyHeader .bodyHeaderContent {
+    padding-top: 0px;
+    width: 95%;
+    flex-direction: column;
+  }
+  body.node-type-progetto #section-main-content div.container .bodyHeader .bodyHeaderContent .bodyLeftCls,
+  body.node-type-progetto #section-main-content div.container .bodyHeader .bodyHeaderContent .bodyRightCls {
+    width: 100%;
+  }
+  body.node-type-progetto #section-latest-works .dexp-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  body.node-type-progetto #section-latest-works .dexp-container .nGY2Navigationbar .nGY2NavigationbarItem {
+    margin: 5px 0px;
+  }
+  .singoloeventocls .rightcontentcls h2.titolo {
+    font: normal normal bold 15px Segoe UI;
+  }
+  .singoloeventocls .rightcontentcls p:not(.eventolnk) {
+    max-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .singoloeventocls .rightcontentcls .bodyContentCls {
+    max-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 99%;
+  }
+  #section-page-title .container .page_title_no_sub h1.page_title {
+    font: normal normal bold 28px Segoe UI;
+  }
+  body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+  }
+  body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content div.left,
+  body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content div.right {
+    width: 100%;
+  }
+  body.page-node-115 #section-main-content div.row {
+    display: flex;
+  }
+  body.page-node-115 #section-main-content div.row div.region-left-sidebar {
+    width: 50%;
+  }
+  body.page-node-115 #section-main-content div.row .region-content {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body.front .progettirecentiblkcls .bxslide .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls .titoloProgettoCls {
+    font: normal normal bold 18px Segoe UI;
+    line-height: 20px;
+  }
+  body.front .progettirecentiblkcls .bxslide .corpoprogcls div.backgroundFotoProgettoCls .titleAndBodyCls p:not(.titoloProgettoCls) {
+    font: normal normal 15px Segoe UI;
+  }
+  body.front section#section-extra-bottom-4 {
+    display: none;
+  }
+  body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls {
+    gap: 5px;
+  }
+  body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .descriz_breve {
+    max-height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .read_more {
+    bottom: 0px;
+  }
+  body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .title {
+    font: normal normal bold 16px Segoe UI;
+  }
+  .singoloeventocls .rightcontentcls h2.titolo {
+    font: normal normal bold 15px Segoe UI;
+    line-height: 18px;
+  }
+  .singoloeventocls .rightcontentcls p:not(.eventolnk) {
+    max-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  body.page-node-115 #section-main-content div.row {
+    display: flex;
+    flex-direction: column;
+  }
+  body.page-node-115 #section-main-content div.row div.region-left-sidebar {
+    width: 100%;
+  }
+  body.page-node-115 #section-main-content div.row .region-content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #section-clients .ProgettiFooterCls .bxslide .views-field-title {
+    width: 100%;
+  }
+  body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .title {
+    font: normal normal bold 14px Segoe UI;
+    max-height: 90px;
+    overflow: hidden;
+  }
+  #section-page-title .container .page_title_no_sub h1.page_title {
+    font: normal normal bold 26px Segoe UI;
+  }
+  .singoloeventocls .rightcontentcls h2.titolo {
+    font: normal normal bold 14px Segoe UI;
+    line-height: 16px;
+  }
+  .singoloeventocls .rightcontentcls p:not(.eventolnk) {
+    max-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  body.page-node-1584 #section-page-title .region-page-title {
+    flex-direction: column-reverse;
+  }
 }
 @media screen and (max-width: 480px) {
   .team-style-1 .team-member-info-wrp:after {
@@ -5009,6 +5205,19 @@ body.page-node-87  h2.block-title {
   }
   .team-style-1 .team-member-info-wrp:after {
     left: 165px;
+  }
+  .singoloeventocls .rightcontentcls h2.titolo {
+    font: normal normal bold 12px Segoe UI;
+    line-height: 16px;
+  }
+  .singoloeventocls .rightcontentcls p:not(.eventolnk) {
+    max-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font: normal 11px Segoe UI;
+  }
+  .singoloeventocls .rightcontentcls p.eventolnk a {
+    font: normal normal bold 12px Segoe UI;
   }
 }
 @media screen and (max-width: 768px) {
@@ -5049,13 +5258,10 @@ body.page-node-87  h2.block-title {
     display: none;
   }
   .singoloeventocls .post-content h2.titolo {
-    line-height: 24px;
-  }
-  .singoloeventocls .post-content h2.titolo a {
-    font-size: 20px;
+    line-height: 18px;
   }
   .singoloeventocls {
-    height: 250px;
+    height: 120px;
   }
   .region-user1 .animated,
   .region-user3 .animated {
