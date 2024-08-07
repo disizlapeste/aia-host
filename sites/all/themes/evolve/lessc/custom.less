@@ -78,6 +78,7 @@ body.front .progettirecentiblkcls .singoloprogettocls .titoloprogettocls a{
 			border: black 1px solid !important;
 			&.active{
 				background: black !important;
+				border: white 1px solid !important;
 			}
 		}
 	}
@@ -636,7 +637,7 @@ body.not-front #section-clients{
 .team-style-1 .team-member-info-wrp:after{
 	transform: translate(-50%,-50%) rotate(270deg);
     top: 50%;
-    left: 200px;
+    left: 205px;
 	content: '';
     border: 20px solid;
     position: absolute;
@@ -921,6 +922,13 @@ body.node-type-progetto{
 		p:not(.eventolnk){
 			margin-bottom:5px;
 			font-weight: 400;
+		}
+		.bodyContentCls{
+			max-height: 30px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			width:99%;
 		}
 
 	}
@@ -1387,6 +1395,7 @@ body.page-node-87  h2.block-title{
 				position: relative;
 				display: flex;
 				justify-content: space-around;
+				background: #332f2f;
 				.titleAndBodyCls{
 					background: white;
 					opacity: 0.73;
@@ -1417,5 +1426,230 @@ body.page-node-87  h2.block-title{
 				}
 			}
 		}
-	 }
+	}
+	body.front .progettirecentiblkcls {
+		.view-progetti-recenti .bx-controls .bx-controls-direction{
+			a{
+				background: lightgray 0% 0% no-repeat padding-box;
+				width: 30px;
+				height: 30px;
+				&.bx-prev{
+					left: 15px;
+					top: 20px;
+				}
+				&.bx-next{
+					right: 15px;
+					top:20px;
+				}
+				i.fa{
+					line-height: 30px;
+					width: 32px;
+					height: 32px;
+					&:before{
+						font-size: 30px;
+					}
+				}
+			}
+		}
+	}
+	body.page-node-90 #section-map .region-map {
+		.ourNumbersAboutUsCls .content{
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+		}
+		.descrizioneAiaAboutUsCls .content{
+			width: 100%;
+			flex-direction: column;
+			gap: 20px;
+			align-items: center;
+			div.left, div.right{
+				width: 90%;
+			}
+		}
+	} 
+	body.page-node-90 .view-team .dexp-grid-items .row{
+		display: flex; 
+		flex-direction: column;
+		.dexp-grid-item{
+			width: 100%;
+		}
+	}
+	body.page-node-84 #section-map .region-map .DescrizioneProgettiTopCls .content{
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		div.left, div.right{
+			width: 90%;
+		}
+	}
+	body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls {
+		gap: 5px;
+		div.right{
+			.descriz_breve{
+				max-height: 100px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			.read_more{
+				bottom: 0px;
+			}
+		} 
+	}
+	body.node-type-progetto #section-main-content div.container .bodyHeader{
+		.bodyHeaderContent{
+			padding-top: 0px;
+			width: 95%;
+			flex-direction: column;	
+			.bodyLeftCls, .bodyRightCls{
+				width: 100%;
+			} 	
+		}
+	}
+	body.node-type-progetto{
+		#section-latest-works{
+			.dexp-container{
+				width: 95%;
+				margin: 0 auto;
+				.nGY2Navigationbar .nGY2NavigationbarItem{
+					margin: 5px 0px;
+				}
+			}
+		}
+	}
+
+	.singoloeventocls .rightcontentcls{
+		h2.titolo{
+			font: normal normal bold 15px Segoe UI;
+		}
+		p:not(.eventolnk){
+			max-height: 18px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.bodyContentCls{
+			max-height: 25px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			width:99%;
+		}
+	} 
+	#section-page-title .container .page_title_no_sub h1.page_title{
+		font: normal normal bold 28px Segoe UI
+	}
+	body.page-node-1584 #section-map .region-map .DescrizioneTrasparenzaTopCls .content{
+		width: 85%;
+		display: flex;
+		flex-direction: column;
+		div.left, div.right{
+			width: 100%;
+		}
+	}
+	body.page-node-115 #section-main-content{
+		div.row{
+			display: flex;
+			div.region-left-sidebar{
+				width: 50%;
+			}
+			.region-content{
+				width: 50%;
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width: 768px){
+    body.front .progettirecentiblkcls .bxslide .corpoprogcls{
+		div{
+			&.backgroundFotoProgettoCls .titleAndBodyCls {
+				.titoloProgettoCls{
+					font: normal normal bold 18px Segoe UI;
+					line-height: 20px;
+				}
+				p:not(.titoloProgettoCls){
+					font: normal normal 15px Segoe UI;
+				}
+			} 
+		}
+	}
+	body.front{
+		section{
+			&#section-extra-bottom-4{
+				display: none;
+			}
+		}
+	}
+	body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls {
+		gap: 5px;
+		div.right{
+			.descriz_breve{
+				max-height: 70px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				font-size: 12px;
+				line-height: 22px;
+			}
+			.read_more{
+				bottom: 0px;
+			}
+			.title{
+				font: normal normal bold 16px Segoe UI;
+			}
+		} 
+	}
+	.singoloeventocls .rightcontentcls{
+		h2.titolo{
+			font: normal normal bold 15px Segoe UI;
+			line-height: 18px;
+		}
+		p:not(.eventolnk){
+			max-height: 18px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	} 
+	body.page-node-115 #section-main-content{
+		div.row{
+			display: flex;
+			flex-direction: column;
+			div.region-left-sidebar{
+				width: 100%;
+			}
+			.region-content{
+				width: 100%;
+			}
+		}
+	}
+}
+
+/*small screen */
+@media screen and (max-width: 540px){
+	#section-clients .ProgettiFooterCls .bxslide .views-field-title{
+		width: 100%;
+	}
+	body.page-node-84 #section-main-content .elencoprogetticls .view-progetti .view-content .rowProgettoCls div.right .title {
+		font: normal normal bold 14px Segoe UI;
+        max-height: 90px;
+        overflow: hidden;
+	}
+	#section-page-title .container .page_title_no_sub h1.page_title{
+		font: normal normal bold 26px Segoe UI;
+	}
+	.singoloeventocls .rightcontentcls{
+		h2.titolo{
+			font: normal normal bold 14px Segoe UI;
+			line-height: 16px;
+			
+		}
+		p:not(.eventolnk){
+			max-height: 18px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	} 
+	body.page-node-1584 #section-page-title .region-page-title{
+		flex-direction: column-reverse;
+	}
 }
